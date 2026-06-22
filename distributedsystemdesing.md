@@ -234,10 +234,6 @@ Take **YouTube**:
 ---
 
 
-Perfect — let’s expand **Data Design** with **deep explanations, challenges, and solutions**. This section is critical because poor data design is often the root cause of scalability and reliability issues in distributed systems.
-
----
-
 ## 4. Deep Dive: Data Design
 
 ### 1. Schema
