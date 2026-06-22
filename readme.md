@@ -133,20 +133,27 @@ Understand the transport layer of modern applications.
 
 ---
 
-### **4️⃣ Linux **
+### **4️⃣ Linux & DevOps**
 
-#### 📌 Linux Operating System
+#### 📌 [Linux Operating System](linux.readme.md)
 Master Linux for production deployments and server management.
-- **File System & Permissions**: Understand POSIX file permissions, ownership, and directory structure
-- **Process Management**: PID, background processes, signals, process monitoring
-- **Package Management**: apt, yum, package repositories, dependency management
-- **System Monitoring**: top, ps, htop, systemctl, journalctl for logs
-- **Network Tools**: ifconfig, netstat, ss, curl, wget, nc for troubleshooting
-- **Shell Scripting**: Bash scripting for automation and DevOps tasks
-- **User & Group Management**: sudoers, user administration, permissions
-- **Disk & Memory Management**: df, du, free, fdisk for storage management
+- **System Information & Monitoring**: uname, top, df, du, free, uptime
+- **File & Directory Management**: ls, cd, pwd, mkdir, rm, find
+- **File Viewing & Editing**: cat, less, head, tail, nano, vim
+- **User & Permission Management**: whoami, id, chmod, chown, sudo
+- **Networking**: ping, curl, wget, ifconfig, netstat, ssh
+- **Package Management**: apt, yum, dnf for installing packages
+- **Process & Job Control**: ps, kill, jobs, fg, bg
+- **Archiving & Compression**: tar, gzip, gunzip
 
+**Real-world Integration**:
+- Run Python apps in **Docker containers** on Linux
+- Deploy with **systemd** services
+- Monitor with tools like **Prometheus**, **Grafana**
+- Use **cron jobs** for scheduled Python tasks
+- Configure **reverse proxies** (nginx, Apache)
 
+**Key Takeaway**: Linux is the OS for 90% of production servers; master these commands to deploy Python systems at scale.
 
 ---
 
