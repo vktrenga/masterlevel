@@ -420,7 +420,51 @@ This is often called the **DORA process** (Discover → Offer → Request → Ac
 
 ---
 
-## 🔑 SSH (Secure Shell)
+## � DHCP vs DNS Comparison
+
+| Feature | DHCP | DNS |
+|---------|------|-----|
+| **Full Form** | Dynamic Host Configuration Protocol | Domain Name System |
+| **Layer** | Application Layer (Layer 7) | Application Layer (Layer 7) |
+| **Purpose** | Assigns IP addresses to devices | Translates domain names to IP addresses |
+| **Function** | **Automatic IP allocation** | **Name resolution** |
+| **Port** | Port 67 (server) / 68 (client) | Port 53 |
+| **Protocol** | UDP | UDP (queries) / TCP (zone transfers) |
+| **Assignment** | Dynamic (lease-based, temporary) | Static (maps domain → IP permanently) |
+| **Time Factor** | Time-limited lease (renewal needed) | No time limit (until TTL expires) |
+| **Server Role** | Manages local network IPs | Distributed across internet |
+| **Configuration Scope** | Local network only | Global internet |
+| **Real-World Example** | Router assigns `192.168.1.100` to your laptop | Browser resolves `google.com` to `142.250.190.14` |
+| **Failure Impact** | New devices can't get online | Can't reach websites by domain name |
+
+---
+
+## 🎯 When to Use DHCP vs DNS?
+
+**DHCP is for:**
+- Automatically assigning IP addresses to devices on a local network
+- Reducing manual configuration work
+- Managing device mobility (laptops, phones connecting/disconnecting)
+- Enterprise and ISP networks
+
+**DNS is for:**
+- Translating human-readable domain names to IP addresses
+- Routing internet traffic to the correct server
+- Enabling load balancing and service discovery
+- Making the internet usable for end-users
+
+**Key Relationship:** DHCP gives your device an IP → DNS helps you find other devices/services by name using that IP.
+
+---
+
+## 📊 Quick Analogy
+
+- **DHCP** = A receptionist at a hotel assigning room numbers to guests (IP allocation)
+- **DNS** = A GPS system that tells you which building/room number a guest lives in (name resolution)
+
+---
+
+## �🔑 SSH (Secure Shell)
 
 ### 1. **Core Purpose**
 SSH is a **network protocol for secure remote login and command execution**. It replaces insecure methods like Telnet by encrypting communication between client and server.
