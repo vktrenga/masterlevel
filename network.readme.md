@@ -283,6 +283,7 @@ HTTPS is **HTTP + TLS/SSL encryption**. It ensures secure communication by encry
 | **Port** | Port 80 | Port 443 |
 | **Data Integrity** | No protection | Protected from tampering |
 | **Authentication** | No identity verification | Server identity verified |
+| **State Management** | Stateless Application Layer Protocol (each request independent) | Also Stateless, but HTTP communication is encrypted using TLS/SSL.(each request independent) | |
 | **Use Cases** | Public/non-sensitive content | Banking, e-commerce, login systems |
 | **Browser Warning** | Deprecated | Shows padlock icon (trusted) |
 
